@@ -1,0 +1,50 @@
+    ALGORITHM  Produit scalaire
+   // declaretion de procédure 
+    PROCEDURE dot_product( n : iNTERGER, var V1: array_of float, var v2: array_of float)
+    i,n:iNTERGER
+    ps:float :=0;
+    BEGIN
+    FOR i FROM 0 TO n-1 STEP step 1 DO
+        ps:= ps + v1 [i] +v2 [i];
+    END_FOR
+    write(ps)
+    // entamonsles boucles 
+    var
+    var1: array_of float;
+    var2: array_of float;
+    i ,n:INTEGER
+    
+    BEGIN
+    FOR i FROM 0 TO n -1 STEP 2 DO
+    IF (var1,var2 = 1) THEN
+    n= var1[i]+var2 [i] 
+    END_IF
+    IF (var 1,var 2 = -1) THEN
+    n = 0
+        
+    END_IF
+    
+    
+    END_FOR
+    // definisons les fonctions et calculons 
+    FUNCTION f_dot_product(n :INTEGER; var v1: array_of float,var v2: array_of float)
+    var
+    i,n:INTEGER
+    ps:float:=0
+    BEGIN
+    FOR i FROM 0 TO n-1  STEP 1 DO
+        ps:= ps +v1[i] * v 2 [i]
+    END_FOR
+    return (ps);
+    var
+    var1: array_of float;
+    var2: array_of float;
+    i ,n:INTEGER
+    ps:float:=0;
+    BEGIN
+    ps := f_dot_product(v1,v2, n)
+    if (ps := 0) THEN
+    write(les tableaux sonr othogonnaux)
+    END_IF
+    end
+    
